@@ -1,0 +1,143 @@
+* {
+    
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body {
+    border: 6px solid rgb(13, 44, 214);
+    border-radius: 7px;
+    font-family: "Outfit", sans-serif;
+    color: #33F1FF;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+   
+    border-radius: 16px;
+    
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    color: #33F1FF;
+  }
+  header input:focus {
+    background-color: rgba(24, 2, 13, 0.8);
+  }
+
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .location .city {
+    color: #2e10d7;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .location .date {
+    color: #de0c0c;
+    font-size: 16px;
+  }
+  .current .temp {
+    color: #e90e0ee6;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  .current .temp span {
+    font-weight: 200;
+  }
+  .current .weather {
+    color: #190bd9;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+  .current .hi-low {
+    color: #d11818;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .main_box{
+  
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+    
+  }
+
+  .image_jag {
+    margin-top: 50px;
+  }
+.news{
+     text-align: center;
+
+    
+}
+
+
+h3{
+  background-color:#33F1FF;
+}
+h1{
+  margin-top: 80px;
+  text-align: center;
+  text-shadow:#e0e7ee;
+}
+div{
+  padding: 10px;
+
+}
+
+.box{
+  border-radius: 7px;
+  border: 3px solid rgb(14, 173, 216);
+  background-color: #97DEFF;
+}
+.box2{
+  
+  border-radius: 7px;
+  border: 3px solid rgb(14, 173, 216);
+  background-color: #97DEFF;
+
+}
+
+#grad {
+  background-image: linear-gradient(180deg, red, yellow);
+}
+
+box3 button{
+  font-size: 20pxs;
+}
